@@ -1,2 +1,2 @@
-const start = require('./connection')
+const start = require("./connection")
 start()
