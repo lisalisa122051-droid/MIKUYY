@@ -4,12 +4,14 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "gen": "node tools/generate-stubs.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.0",
+    "@whiskeysockets/baileys": "6.7.20",
+    "@hapi/boom": "^10.0.1",
     "chalk": "^4.1.2",
-    "moment-timezone": "^0.5.43",
-    "pino": "^8.0.0"
+    "moment-timezone": "^0.5.45",
+    "pino": "^8.17.2"
   }
 }
